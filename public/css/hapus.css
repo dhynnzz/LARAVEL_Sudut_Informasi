@@ -1,0 +1,76 @@
+/* Container untuk form hapus */
+.form-hapus {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Judul dan subjudul */
+.form-hapus h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling untuk tombol */
+button[type="submit"], .btn-simpan {
+    background-color: #d9534f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover, .btn-simpan:hover {
+    background-color: #c9302c;
+}
+
+/* Styling untuk tombol batal */
+#btn-batal {
+    background-color: #5bc0de;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#btn-batal:hover {
+    background-color: #31b0d5;
+}
+
+/* Margin dan padding untuk tombol agar lebih besar */
+button[type="submit"], #btn-batal {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling untuk form (tata letak) */
+#form-hapus-laporan {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Efek saat hover */
+#btn-hapus:hover, #btn-batal:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
